@@ -38,6 +38,8 @@ You're reading it!
 
 ####1. Explain how (and identify where in your code) you extracted HOG features from the training images.
 
+The first thing in the file was to install and the dependencies, extract all the images and save them into variables that are used throughout the entire project. After the initial setup, I went ahead and created the funtions: `get_hog_features` cell 3, `bin_spatial` cell 4, `color_hist` cell 5. I tested the hog funtion to see whether or not the output was correct and saved the image in the `output_images` directory. The image is chosen randomly and the `get_hog_function` is applied to the selected picture.
+
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
